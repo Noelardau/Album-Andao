@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.controler {
+  position: relative;
+  margin: 0 auto;
+  height: 150px;
+  width: 450px;
+  background: rgba(38, 136, 136, 0.3);
+  /*left: 430px;
+  top: 250px;*/
+  text-align: center;
+  padding: 20px;
+  color: white;
+  border-radius: 25px;
+  border: solid 2px rgba(128, 218, 218, 0.3);
+}
+
+body {
+  background-color: rgba(33, 50, 70, 0.979);
+  background: url('img/logo_reko.jpg') no-repeat fixed center;
+  background-size: cover;
+}
+
+button {
+  transition: 1s;
+  border-color: transparent;
+  width: 50px;
+  border-radius: 10px;
+  background-color: slategray;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.603);
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.705);
+}
+
+.pp {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.list {
+  font-weight: bold;
+  color: #5badd3;
+  position: fixed;
+  top: 160px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  overflow: auto;
+  line-height: 100px;
+  background-color: rgba(54,63,102,0.5);
+  /*height: 650px;*/
+  text-align: center;
+  /*padding-left: 150px;*/
+  padding-top: 30px;
+  font-family: Papyrus;
+  border: #fff solid 1px;
+  border-radius: 10% 0 0 10%;
+}
+.list:hover {
+  cursor: pointer;
+}
+.list p:hover {
+  text-decoration: underline;
+  background: #0F3739;
+}
+
+.vol {
+  background-color: rgba(90, 104, 90, 0.7);
+  color: rgba(134, 211, 211, 0.5);
+  /*margin: 0 500px;*/
+  position: absolute;
+  border-radius: 5px;
+  right:  40px;
+  top: 25px;
+  width: 25px;
+  text-align: center;
+}
+.vol span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.vol span:hover {
+  cursor: pointer;
+}
+.vol span:active {
+  color: red;
+}
+
+.enLecture {
+  font-family: Papyrus;
+  font-size: 24px;
+}
+
+.time {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=myPlay.css.map */
+
+
+@media screen and (min-width: 890px){
+
+  .controler{
+      position: relative;
+     /* left: 430px;
+      top: 250px;*/      
+      margin: 23% 40%;
+      
+  }
+
+  .list{
+    top: 0;
+    left: 0;
+    width: 200px;
+    border: none;
+    border-radius: 0;
+    bottom: 0;
+
+
+
+  }
+
+
+
+}
